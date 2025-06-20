@@ -45,6 +45,7 @@ img {
 }
 .header .container {
   display: flex;
+  align-items: center;
 }
 .nav {
   display: flex;
@@ -70,7 +71,6 @@ img {
   margin-left: 76px;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-list .nav-links {
   color: #2e2f42;
@@ -88,15 +88,16 @@ img {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
   margin-left: 322px;
+  align-content: center;
 }
 .contacts-iteam {
   display: flex;
+  padding: 24px 0;
 }
 .contacts-links {
   font-weight: 400;
@@ -108,6 +109,7 @@ img {
 .contacts-links:focus {
   color: #404bbf;
 }
+
 /* hero*/
 .hero {
   display: flex;
