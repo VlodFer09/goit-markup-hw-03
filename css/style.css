@@ -28,8 +28,7 @@ ul {
 img {
   display: block;
 }
-.section {
-}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -158,6 +157,18 @@ img {
   background-color: #404bbf;
 }
 /* features */
+
+.features .container {
+  padding: 120px 0;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+  padding: 120px 0;
+}
+.features-list-iteam {
+  width: calc((100% - 72px) / 4);
+}
 .f-main-h {
   color: #2e2f42;
   font-size: 20px;
@@ -177,14 +188,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.features-list {
-  display: flex;
-  gap: 24px;
-  padding: 120px 0;
-}
-.features-list-iteam {
-  width: calc((100% - 72px) / 4);
-}
 .features-h {
   color: #2e2f42;
   font-size: 20px;
@@ -203,12 +206,6 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.teamcolor .container {
-  padding: 32px 0;
-}
-.ourteam-color {
-  background-color: #ffffff;
-}
 
 .ourteam-main-h {
   font-size: 36px;
@@ -224,6 +221,14 @@ img {
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
 }
+.ourteam-color {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.img-info {
+  padding: 32px 0;
+}
 .ourteam-h {
   font-weight: 500;
   font-size: 20px;
@@ -231,16 +236,17 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 .ourteam-p {
   font-size: 16px;
   text-align: center;
-  padding-bottom: 32px;
 }
 
 /* portfolio */
+.portfolio .container {
+  padding: 120px 0;
+}
 .portfolio-main-h {
   font-size: 36px;
   line-height: 1.11;
@@ -248,6 +254,21 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+.portfolio-list-item .container {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-h {
   font-weight: 500;
@@ -255,6 +276,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-p {
   color: #434455;
@@ -264,9 +286,17 @@ img {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
+.footer .container {
+  padding: 100px 0;
+}
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer .white {
   color: #f4f4fd;
 }
 .footer-p {
   color: #f4f4fd;
+  max-width: 264px;
 }
