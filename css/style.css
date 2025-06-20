@@ -29,7 +29,6 @@ img {
   display: block;
 }
 .section {
-  padding: 188px 0;
 }
 .container {
   max-width: 1158px;
@@ -124,6 +123,7 @@ img {
   text-align: center;
   height: 600px;
   background-color: #2e2f42;
+  padding-top: 188px;
 }
 .hero-text {
   line-height: 1.07;
@@ -134,7 +134,6 @@ img {
   color: #ffffff;
   max-width: 496px;
   padding: auto;
-  padding-top: 188px;
 }
 .button {
   background-color: #4d5ae5;
@@ -146,6 +145,10 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
+  display: block;
+  height: 56px;
+  border: none;
+  margin: auto;
   margin-top: 48px;
   margin-bottom: 188px;
 }
@@ -177,7 +180,10 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  margin: 120px 0;
+  padding: 120px 0;
+}
+.features-list-iteam {
+  width: calc((100% - 72px) / 4);
 }
 .features-h {
   color: #2e2f42;
@@ -185,6 +191,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .features-p {
   font-size: 16px;
@@ -194,10 +201,13 @@ img {
 
 .teamcolor {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.teamcolor .container {
+  padding: 32px 0;
 }
 .ourteam-color {
   background-color: #ffffff;
-  margin-bottom: 120px;
 }
 
 .ourteam-main-h {
@@ -207,12 +217,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .ourteamlist {
   display: flex;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 .ourteam-h {
   font-weight: 500;
@@ -222,7 +232,7 @@ img {
   color: #2e2f42;
   text-align: center;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .ourteam-p {
   font-size: 16px;
