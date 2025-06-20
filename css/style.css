@@ -81,6 +81,9 @@ img {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
+.nav-links {
+  padding: 24px 0;
+}
 .nav-links:hover,
 .nav-links:focus {
   color: #404bbf;
@@ -94,7 +97,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.contacts-iteam {
+.contacts-item {
   display: flex;
   align-items: center;
 }
@@ -102,13 +105,13 @@ img {
   font-weight: 400;
   color: #434455;
   text-decoration: none;
+  padding: 24px 0;
 }
 .nav-links,
 .contacts-links {
   padding: 24px 0;
 }
 .contacts-links:hover,
-.contacts-links::after,
 .contacts-links:focus {
   color: #404bbf;
 }
