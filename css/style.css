@@ -164,7 +164,6 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .features-list-iteam {
   width: calc((100% - 72px) / 4);
@@ -244,6 +243,7 @@ img {
 }
 
 /* portfolio */
+
 .portfolio {
   padding: 120px 0;
 }
