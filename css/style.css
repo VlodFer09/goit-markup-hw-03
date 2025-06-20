@@ -50,7 +50,6 @@ img {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 24px 0;
 }
 .logo {
   color: #4d5ae5;
@@ -71,6 +70,7 @@ img {
   margin-left: 76px;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-list .nav-links {
   color: #2e2f42;
